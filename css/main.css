@@ -1,0 +1,86 @@
+* {
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+   list-style: none;}
+
+html {
+   font-size: 10px;}
+
+body {
+   background-color: #11121d;}
+
+.wrapper {
+   width: 70%;
+   margin: 0 auto;}
+
+.heading {
+   font-family: 'dosis', sans-serif;
+   font-weight: bold;
+   font-size: 3rem;
+   text-align: center;
+   text-transform: uppercase;
+   color: #36395a;
+   margin: 2rem 0;}
+
+.search-container {
+   background-color: #342441;
+   padding: 3rem;
+   border-radius: 6px;}
+
+.search__input {
+   font-family: 'dosis', sans-serif;
+   font-size: 2.2rem;
+   background-color: white;
+   color: #5e5e5e;
+   width: 100%;
+   padding: 1.5rem 2rem;
+   border: 4px solid white;
+   border-radius: 6px;
+   display: block;
+   transition: border 500ms ease;}
+
+.search__input:hover {
+   border-color: #64fff2;}
+
+.search__input:focus {
+   border-color: #64fff2;}
+
+.states__length {
+   font-family: 'dosis', sans-serif;
+   font-weight: normal;
+   font-size: 1.5rem;
+   text-align: center;
+   text-transform: uppercase;
+   color: #464a70;
+   margin: 3rem 0;
+   padding-bottom: 2rem;
+   border-bottom: 2px solid #0e0f18;}
+
+.states-list__li {
+   background-color: #0e0f18;
+   margin-bottom: 3rem;
+   padding: 3rem 2.5rem;
+   border-left: 3px solid #64fff2;
+   border-top-right-radius: 6px;
+   border-bottom-right-radius: 6px;}
+
+.states-list__li:last-child {
+   margin-bottom: 6rem;}
+
+.states-list__heading {
+   font-family: 'dosis', sans-serif;
+   font-size: 3rem;
+   font-weight: bold;
+   color: #e3e3e3;}
+
+.states-list__heading-capital {
+   color: #64fff2;}
+
+.states-list__length {
+   font-family: 'dosis',  sans-serif;
+   font-weight: normal;
+   font-size: 1.3rem;
+   letter-spacing: 2px;
+   color: #aaaaaa;
+   margin-top: 3rem;}
